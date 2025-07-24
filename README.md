@@ -34,14 +34,14 @@
   "data": [
     {
         "id": "umkm-EwdK_DStrIQ2n-nR",
-        "name": "ikan bakar",
+        "name": "ikan bakar patin",
         "description": "ikan bakar simpang jalan",
         "subdistrict": "kombos",
         "address": "kairagi 1",
         "contact": "080808080808",
         "year": 2024,
         "rating": "1.67",
-        "cover_url": "https://res.cloudinary.com/dtkczgmyn/image/upload/v1732551134/mamenimage/mrtbk.jpg",
+        "cover_url": "https://res.cloudinary.com/dtkczgmyn/image/upload/v1732551134/.../mrtbk.jpg",
         "owner": "user-jJBzN195E01EUzfP",
         "categories": [
           "makanan",
@@ -57,7 +57,7 @@
         "contact": "bucketcoffe@gmail.com",
         "year": 2020,
         "rating": "4.67",
-        "cover_url": "https://res.cloudinary.com/dtkczgmyn/image/upload/v1731926663/mamenimage/%E6%83%A0%E6%AF%94%E5%A3%BD%E9%AF%9B%E9%AD%9A%E7%87%92.jpg",
+        "cover_url": "https://res.cloudinary.com/dtkczgmyn/image/upload/v1731926663/..../%E6%83%A0%E6%AF%94%E5%A3%BD%E9%AF%9B%E9%AD%9A%E7%87%92.jpg",
         "owner": "user-nQmPKJdYBjHl6x-9",
         "categories": [null]
       },
@@ -81,7 +81,7 @@
     "products": [
       {
         "id": "product-C6zCj6uBH6-mBOV6",
-        "name": "Kopi ring",
+        "name": "Kopi jalan",
         "product_type": "Minuman",
         "description": "Kopi biasa",
         "price": 24000,
@@ -95,7 +95,7 @@
         "product_type": "Braclelet",
         "description": "Kombinasi Love putih, hitam",
         "price": 15000,
-        "cover_url": "https://res.cloudinary.com/dtkczgmyn/image/upload/v1732552799/mamenimage/Reputation%20taylor%20swift%20bracelet.jpg",
+        "cover_url": "https://res.cloudinary.com/dtkczgmyn/image/upload/v1732552799/..../Reputation%20taylor%20swift%20bracelet.jpg",
         "umkms_id": "umkm-DQelDfLFOeLBwQKu",
         "umkm_name": "Braclish"
       },
@@ -142,4 +142,4 @@
 ```
 
 ## Link Terkait
-- [Dokumentasi Frontend](https://github.com/Isshoo/FE_Mamen)
+- [Dokumentasi Frontend](https://github.com/mhmmdo/FE_EtaBan)
