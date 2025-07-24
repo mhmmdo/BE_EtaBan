@@ -44,12 +44,6 @@ Install dependencies
 npm install or npm i
 ```
 
-Install dependencies
-
-```bash
-npm install or npm i
-```
-
 CREATE Database to postgresql
 - Don't forget to install postgresql on your device!
 ```bash
