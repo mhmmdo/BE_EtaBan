@@ -9,7 +9,7 @@
 - Cloudinary : platform manajemen media berbasis cloud yang membantu mengunggah, menyimpan, mengelola, dan mengirimkan konten media digital
 - Postman : Tools untuk menguji dan memvalidasi API
 
-## Instal Di Local
+## Run Locally
 
 Clone the Project
 
