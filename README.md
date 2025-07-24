@@ -1,4 +1,4 @@
-# BACKEND MAMEN MDO
+# BACKEND Etalase Banua
 
 ## Tech Stack
 - Node JS : Runtime Environment untuk menjalankan javascript di sisi server.
@@ -11,9 +11,6 @@
 
 
 ## API Documentation
-
-### Endpoint
-[https://bemamen-production.up.railway.app/](https://bemamen-production.up.railway.app/)
 
 ---
 
