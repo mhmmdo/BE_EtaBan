@@ -9,6 +9,58 @@
 - Cloudinary : platform manajemen media berbasis cloud yang membantu mengunggah, menyimpan, mengelola, dan mengirimkan konten media digital
 - Postman : Tools untuk menguji dan memvalidasi API
 
+## Instal Di Local
+
+Clone the Project
+
+```bash
+git clone https://github.com/mhmmdo/BE_EtaBan.git
+```
+
+Setting .env
+
+```bash
+#Apabila Dijalankan Di LocalHost
+
+PORT=5000
+HOST=localhost
+
+#Token Apikey Untuk API Bamen
+ACCESS_TOKEN_KEY=bamen-api
+ACCESS_TOKEN_AGE=3600
+REFRESH_TOKEN_KEY=bamen-api
+
+#Token Api Key Cloudinary Untuk Media
+#Daftar Akun di cloudinary.com untuk API KEY
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
+
+```
+
+Install dependencies
+
+```bash
+npm install or npm i
+```
+
+Install dependencies
+
+```bash
+npm install or npm i
+```
+
+CREATE Database to postgresql
+- Don't forget to install postgresql on your device!
+```bash
+npm run migrate
+```
+
+Run the server in Development mode
+
+```bash
+npm run start:dev
+```
 
 ## API Documentation
 
