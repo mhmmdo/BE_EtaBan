@@ -59,6 +59,20 @@ const init = async () => {
     },
   ]);
 
+	// --- START DEBUGGING ---
+console.log('--- RAILWAY ENV VAR CHECK ---');
+console.log('NODE_ENV:', process.env.NODE_ENV); // Cek environment Node.js
+console.log('ACCESS_TOKEN_KEY_RAW:', process.env.ACCESS_TOKEN_KEY); // Cetak nilai mentah untuk verifikasi
+console.log('ACCESS_TOKEN_AGE_RAW:', process.env.ACCESS_TOKEN_AGE); // Cetak nilai mentah juga
+
+// Cek apakah ACCESS_TOKEN_KEY adalah string dan tidak kosong
+if (typeof process.env.ACCESS_TOKEN_KEY === 'string' && process.env.ACCESS_TOKEN_KEY.length > 0) {
+    console.log('ACCESS_TOKEN_KEY: VALID & SET');
+} else {
+    console.log('ACCESS_TOKEN_KEY: UNDEFINED or EMPTY or NOT STRING');
+}
+console.log('--- END RAILWAY ENV VAR CHECK ---');
+	
   // mendefinisikan strategy autentikasi jwt
   server.auth.strategy('etaban_jwt', 'jwt', {
     keys: process.env.ACCESS_TOKEN_KEY,
